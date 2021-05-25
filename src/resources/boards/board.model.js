@@ -7,7 +7,6 @@ const { v4: uuid } = require('uuid');
  * @property {string} order column order
  */
 
-
 /**
  * @typedef {Object} BoardParams
  * @property {string} title Board title
@@ -15,7 +14,10 @@ const { v4: uuid } = require('uuid');
  */
 
 /**
- * @typedef {BoardParams & {id: string}} BoardModel Board model compose properties defined in BoardParams and id
+ * @typedef {Object} BoardModel Board model compose properties defined in BoardParams and id
+ * @property {string} id Board id
+ * @property {string} title Board title
+ * @property {Array.<ColumnsModel>} columns Board order
  */
 
 /**

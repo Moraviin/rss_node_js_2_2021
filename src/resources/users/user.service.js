@@ -2,8 +2,8 @@ const usersRepo = require('./user.memory.repository');
 const tasksRepo = require('../tasks/task.memory.repository');
 
 /**
- * @typedef {import('./user.model').UserModel} UserModel
- * @typedef {import('./user.model').UserParams} UserParams
+ * @import {UserModel} from './user.model'
+ * @import {UserParams} from './user.model'
  */
 
 /**

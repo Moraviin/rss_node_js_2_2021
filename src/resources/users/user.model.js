@@ -8,7 +8,18 @@ const {v4: uuid} = require('uuid');
  */
 
 /**
- * @typedef {UserParams & {id: string}} UserModel User model compose properties defined in UserParams and id
+ * @typedef {Object} UserModel User model compose properties defined in UserParams and id
+ * @property {string} id User id
+ * @property {string} name User name
+ * @property {string} login User login
+ * @property {string} password User password
+ */
+
+/**
+ * @typedef {Object} SafeUserModel User model to response
+ * @property {string} id User id
+ * @property {string} name User name
+ * @property {string} login User login
  */
 
 /**
@@ -34,7 +45,7 @@ class User {
   /**
    * Return safe data of user
    * @param {UserModel} user User model
-   * @returns {{id: string; name: string; login: string}} User parameters from UserModel
+   * @returns {SafeUserModel} User parameters from UserModel
    */
   static toResponse(user) {
     const { id, name, login } = user;
