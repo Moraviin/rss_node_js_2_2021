@@ -11,7 +11,14 @@ const { v4: uuid } = require('uuid');
  */
 
 /**
- * @typedef {TaskParams & {id: string}} TaskModel Task model compose properties defined in BoardParams and id
+ * @typedef {Object} TaskModel Task model compose properties defined in BoardParams and id
+ * @property {string} id Task id
+ * @property {string} title Task title
+ * @property {string} order Task order
+ * @property {string} description Task order
+ * @property {string} boardId Task order
+ * @property {string} userId Task order
+ * @property {string} columnId Task order
  */
 
 /**
