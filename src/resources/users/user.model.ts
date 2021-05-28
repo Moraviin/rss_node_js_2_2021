@@ -21,11 +21,7 @@ class User {
 
   password: IUserModel['password'];
 
-  constructor({
-    name = 'USER',
-    login = 'user',
-    password = 'P@55w0rd',
-  }: IUserParams) {
+  constructor({ name = 'USER', login = 'user', password = 'P@55w0rd' }: IUserParams) {
     this.id = uuid();
     this.name = name;
     this.login = login;

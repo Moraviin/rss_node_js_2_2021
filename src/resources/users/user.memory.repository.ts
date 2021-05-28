@@ -6,11 +6,7 @@ const getAll = async (): Promise<IUserModel[]> => allUsers;
 const getById = async (id: string): Promise<IUserModel | void> =>
   allUsers.find(user => user.id === id);
 
-const createUser = async ({
-  name,
-  login,
-  password,
-}: IUserParams): Promise<IUserModel> => {
+const createUser = async ({ name, login, password }: IUserParams): Promise<IUserModel> => {
   const user = new User({ name, login, password });
   allUsers.push(user);
   return user;
@@ -26,12 +22,7 @@ const deleteById = async (id: string): Promise<void> => {
   }
 };
 
-const updateById = async ({
-  id,
-  name,
-  login,
-  password,
-}: IUserModel): Promise<IUserModel> => {
+const updateById = async ({ id, name, login, password }: IUserModel): Promise<IUserModel> => {
   const userPosition = allUsers.findIndex(user => user.id === id);
 
   if (userPosition === -1) {

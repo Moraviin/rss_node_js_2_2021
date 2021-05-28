@@ -70,9 +70,7 @@ const updateById = async ({
 const removeUserById = async (id: string): Promise<void> => {
   const assignedTasks = allTasks.filter(task => task.userId === id);
 
-  await Promise.allSettled(
-    assignedTasks.map(async task => updateById({ ...task, userId: null })),
-  );
+  await Promise.allSettled(assignedTasks.map(async task => updateById({ ...task, userId: null })));
 };
 
 const deleteTasksByBoardId = async (boardId: string): Promise<void> => {

@@ -4,23 +4,16 @@ import { IUserModel, IUserParams } from './user.model';
 
 const getAll = (): Promise<IUserModel[]> => usersRepo.getAll();
 
-const getById = (id: string): Promise<IUserModel | void> =>
-  usersRepo.getById(id);
+const getById = (id: string): Promise<IUserModel | void> => usersRepo.getById(id);
 
-const createUser = (user: IUserParams): Promise<IUserModel> =>
-  usersRepo.createUser(user);
+const createUser = (user: IUserParams): Promise<IUserModel> => usersRepo.createUser(user);
 
 const deleteById = (id: string): void => {
   tasksRepo.removeUserById(id);
   usersRepo.deleteById(id);
 };
 
-const updateById = ({
-  id,
-  name,
-  login,
-  password,
-}: IUserModel): Promise<IUserModel> =>
+const updateById = ({ id, name, login, password }: IUserModel): Promise<IUserModel> =>
   usersRepo.updateById({
     id,
     name,

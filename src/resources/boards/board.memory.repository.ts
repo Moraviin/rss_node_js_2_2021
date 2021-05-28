@@ -6,10 +6,7 @@ const getAll = async (): Promise<IBoardModel[]> => allBoards;
 const getById = async (id?: string): Promise<IBoardModel | void> =>
   allBoards.find(board => board.id === id);
 
-const createBoard = async ({
-  title,
-  columns,
-}: IBoardParams): Promise<IBoardModel> => {
+const createBoard = async ({ title, columns }: IBoardParams): Promise<IBoardModel> => {
   const board = new Board({ title, columns });
   allBoards.push(board);
   return board;
@@ -25,11 +22,7 @@ const deleteById = async (id: string): Promise<void> => {
   }
 };
 
-const updateById = async ({
-  id,
-  title,
-  columns,
-}: IBoardModel): Promise<IBoardModel> => {
+const updateById = async ({ id, title, columns }: IBoardModel): Promise<IBoardModel> => {
   const boardPosition = allBoards.findIndex(board => board.id === id);
 
   if (boardPosition === -1) {

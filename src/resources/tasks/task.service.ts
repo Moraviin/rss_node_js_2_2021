@@ -3,8 +3,7 @@ import { ITaskModel, ITaskParams } from './task.model';
 
 const getAll = (): Promise<ITaskModel[]> => tasksRepo.getAll();
 
-const getById = (id: string): Promise<ITaskModel | void> =>
-  tasksRepo.getById(id);
+const getById = (id: string): Promise<ITaskModel | void> => tasksRepo.getById(id);
 
 const createTask = ({
   title,
