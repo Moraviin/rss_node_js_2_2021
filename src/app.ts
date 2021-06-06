@@ -5,7 +5,7 @@ import YAML from 'yamljs';
 import userRouter from './resources/users/user.router';
 import boardRouter from './resources/boards/board.router';
 import taskRouter from './resources/tasks/task.router';
-import { logMethod } from './logger-service';
+import { logMethod, logError, errorHandler } from './logger-service';
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -26,5 +26,7 @@ app.use('/', (req, res, next) => {
 app.use('/users', userRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 app.use('/boards', boardRouter);
+
+app.use(errorHandler);
 
 export default app;
