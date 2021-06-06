@@ -29,4 +29,13 @@ app.use('/boards', boardRouter);
 
 app.use(errorHandler);
 
+process.on('uncaughtException', err => {
+  logError('error')(err);
+  process.exit(1);
+});
+process.on('unhandledRejection', () => {
+  logError('promise');
+  process.exit(1);
+});
+
 export default app;
