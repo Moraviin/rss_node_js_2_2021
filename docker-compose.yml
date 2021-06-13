@@ -1,0 +1,31 @@
+version: '3'
+services:
+  node:
+    build: .
+    container_name: node
+    
+    restart: on-failure
+    volumes: 
+      - ./src:/usr/src/src
+      - ./LOGS:/usr/src/LOGS
+    ports: 
+      - ${PORT}:${PORT}
+    networks: 
+      - user_defined_bridge
+    depends_on: 
+      - postgres
+  postgres:
+    container_name: postgres
+    build: ./database/
+    environment:
+      - POSTGRES_PASSWORD=postgres_password
+    networks: 
+      - user_defined_bridge
+    volumes: 
+      - ./database/postgres_data:/var/lib/postgresql/data/
+      - ./database/postrgres_log:/var/log/
+networks: 
+  user_defined_bridge:
+    driver: bridge
+            
+            

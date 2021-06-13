@@ -3,8 +3,8 @@ import { finished } from 'stream';
 
 import fs from 'fs';
 
-const logWriteStream = fs.createWriteStream('./LOGS/appLog.log');
-const errWriteStream = fs.createWriteStream('./LOGS/errLog.log');
+const logWriteStream = fs.createWriteStream('./LOGS/appLog.log', { flags: 'a' });
+const errWriteStream = fs.createWriteStream('./LOGS/errLog.log', { flags: 'a' });
 
 const formatQueryData = (req: express.Request, res: express.Response) => {
   const reqData = `
