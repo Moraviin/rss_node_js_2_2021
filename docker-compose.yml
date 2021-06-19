@@ -3,17 +3,21 @@ services:
   node:
     build: .
     container_name: node
-    
     restart: on-failure
     volumes: 
       - ./src:/usr/src/src
       - ./LOGS:/usr/src/LOGS
+    command: ["./wait-for.sh", "postgres:5432", "--", "npm", "run", "start:migration"]
     ports: 
       - ${PORT}:${PORT}
     networks: 
       - user_defined_bridge
-    depends_on: 
+    depends_on:
       - postgres
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+    
   postgres:
     container_name: postgres
     build: ./database/
@@ -24,6 +28,10 @@ services:
     volumes: 
       - ./database/postgres_data:/var/lib/postgresql/data/
       - ./database/postrgres_log:/var/log/
+    environment:
+     - POSTGRES_USER=${POSTGRES_USER}
+     - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+     - POSTGRES_DB=${POSTGRES_DB} 
 networks: 
   user_defined_bridge:
     driver: bridge

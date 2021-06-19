@@ -27,12 +27,15 @@ export const logMethod = (
   finished(res, () => logWriteStream.write(formatQueryData(req, res)));
 };
 
-export const logError = (type: 'promise' | 'error') => (err: Error): void => {
-  errWriteStream.write(`
+export const logError = (type: 'promise' | 'error') => (err?: Error, cb?: () => void): void => {
+  errWriteStream.write(
+    `
   [${new Date()}]
-  [Uncaught ${type === 'promise' ? 'promise rejection' : 'exception'}] ${err.name || ''}
-  info: ${JSON.stringify(err.message)}
-  ${err.stack ? `${err.stack}` : ''}`);
+  [Uncaught ${type === 'promise' ? 'promise rejection' : 'exception'}] ${err?.name || ''}
+  info: ${JSON.stringify(err?.message || '')}
+  ${err?.stack ? `${err.stack}` : ''}`,
+    cb,
+  );
 };
 
 export const errorHandler = (
