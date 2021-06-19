@@ -7,7 +7,7 @@ services:
     volumes: 
       - ./src:/usr/src/src
       - ./LOGS:/usr/src/LOGS
-    command: ["./wait-for.sh", "postgres:5432", "--", "npm", "run", "start:migration"]
+    command: ["./wait-for.sh", "${POSTGRES_HOST}:${POSTGRES_PORT}", "--", "npm", "run", "start:migration"]
     ports: 
       - ${PORT}:${PORT}
     networks: 
@@ -15,8 +15,8 @@ services:
     depends_on:
       - postgres
     environment:
-      - POSTGRES_HOST=postgres
-      - POSTGRES_PORT=5432
+      - POSTGRES_HOST=${DOCKER_POSTGRES_HOST}
+      - POSTGRES_PORT=${DOCKER_POSTGRES_PORT}
     
   postgres:
     container_name: postgres

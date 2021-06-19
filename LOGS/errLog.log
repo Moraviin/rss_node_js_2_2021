@@ -1,0 +1,235 @@
+
+  [Fri Jun 18 2021 22:09:32 GMT+0300 (Moscow Standard Time)]
+  [Uncaught exception] Error
+  info: "listen EADDRINUSE: address already in use :::4000"
+  Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (C:\Projects\rss\rss_node_js_2_2021\node_modules\express\lib\application.js:618:24)
+    at C:\Projects\rss\rss_node_js_2_2021\src\server.ts:10:9
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+  [Sat Jun 19 2021 19:49:18 GMT+0300 (Moscow Standard Time)]
+  [Uncaught exception] Error
+  info: ""
+  Error: 
+    at Object.<anonymous> (C:\Projects\rss\rss_node_js_2_2021\src\app.ts:43:7)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Module.m._compile (C:\Projects\rss\rss_node_js_2_2021\node_modules\ts-node\src\index.ts:1295:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Projects\rss\rss_node_js_2_2021\node_modules\ts-node\src\index.ts:1298:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Module.require (internal/modules/cjs/loader.js:957:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Projects\rss\rss_node_js_2_2021\src\server.ts:4:1)
+
+  [Sat Jun 19 2021 19:53:40 GMT+0300 (Moscow Standard Time)]
+  [Uncaught promise rejection] Error
+  info: "loh"
+  Error: loh
+    at Object.<anonymous> (C:\Projects\rss\rss_node_js_2_2021\src\app.ts:42:16)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Module.m._compile (C:\Projects\rss\rss_node_js_2_2021\node_modules\ts-node\src\index.ts:1295:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Projects\rss\rss_node_js_2_2021\node_modules\ts-node\src\index.ts:1298:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Module.require (internal/modules/cjs/loader.js:957:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Projects\rss\rss_node_js_2_2021\src\server.ts:4:1)
+  [Sat Jun 19 2021 17:01:15 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:01:15 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:01:15 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:01:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:01:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:01:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:03:55 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:03:55 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:03:55 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:04:17 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:04:17 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:04:17 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 127.0.0.1:5433"
+  Error: connect ECONNREFUSED 127.0.0.1:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:05:23 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:05:23 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:05:23 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:09:41 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:09:41 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:09:41 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:12:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:12:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:12:51 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5433"
+  Error: connect ECONNREFUSED 172.23.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:15:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:15:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:15:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:25:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:25:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:25:36 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.18.0.2:5433"
+  Error: connect ECONNREFUSED 172.18.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:26:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:26:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:26:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:27:27 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:27:27 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:27:27 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.19.0.2:5433"
+  Error: connect ECONNREFUSED 172.19.0.2:5433
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:54:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.22.0.2:5432"
+  Error: connect ECONNREFUSED 172.22.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:54:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.22.0.2:5432"
+  Error: connect ECONNREFUSED 172.22.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:54:54 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.22.0.2:5432"
+  Error: connect ECONNREFUSED 172.22.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:56:29 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5432"
+  Error: connect ECONNREFUSED 172.23.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:56:29 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5432"
+  Error: connect ECONNREFUSED 172.23.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+  [Sat Jun 19 2021 17:56:29 GMT+0000 (Coordinated Universal Time)]
+  [Uncaught promise rejection] Error
+  info: "connect ECONNREFUSED 172.23.0.2:5432"
+  Error: connect ECONNREFUSED 172.23.0.2:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
