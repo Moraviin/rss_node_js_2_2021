@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid';
 
-interface IColumnModel {
+export interface IColumnModel {
   id: string;
   title: string;
   order: string;
