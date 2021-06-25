@@ -1,4 +1,6 @@
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
+import { UserEntity } from '../resources/entities/users';
+import { hashPassword } from '../authtenticate-service';
 
 export class CreateUserTable1624112117662 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
@@ -28,6 +30,13 @@ export class CreateUserTable1624112117662 implements MigrationInterface {
         ],
       }),
     );
+
+    const adminPassword = hashPassword('admin');
+    queryRunner.manager.insert(UserEntity, {
+      name: 'admin',
+      login: 'admin',
+      password: adminPassword,
+    });
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
