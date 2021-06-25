@@ -1,4 +1,5 @@
 import dbConnection from '../../db';
+import { hashPassword } from '../../authtenticate-service';
 import { UserEntity } from '../entities/users';
 import { IUserModel, IUserParams } from './user.model';
 
@@ -6,7 +7,9 @@ const userRepository = dbConnection.then(connection => connection.getRepository(
 
 const getAll = async (): Promise<IUserModel[]> => {
   const userRepo = await userRepository;
-  return userRepo.find();
+  const allUsers = await userRepo.find();
+  console.log(allUsers);
+  return allUsers;
 };
 
 const getById = async (id: string): Promise<IUserModel | void> => {
@@ -16,7 +19,8 @@ const getById = async (id: string): Promise<IUserModel | void> => {
 
 const createUser = async ({ name, login, password }: IUserParams): Promise<IUserModel> => {
   const userRepo = await userRepository;
-  const insertResponse = await userRepo.insert({ name, login, password });
+  const passwordHash = hashPassword(password);
+  const insertResponse = await userRepo.insert({ name, login, password: passwordHash });
   const userId = insertResponse.identifiers[0];
   return userRepo.findOneOrFail({ where: userId });
 };
@@ -30,7 +34,9 @@ const updateById = async ({ id, name, login, password }: IUserModel): Promise<IU
   const userRepo = await userRepository;
 
   await userRepo.findOneOrFail({ id });
-  const userUpdate = await userRepo.save({ id, name, login, password });
+  const passwordHash = hashPassword(password);
+
+  const userUpdate = await userRepo.save({ id, name, login, password: passwordHash });
 
   return userUpdate;
 };
