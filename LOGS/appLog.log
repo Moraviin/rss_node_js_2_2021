@@ -1,0 +1,403 @@
+
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query: {};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query: {};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/7001bd8a-7c3e-4459-a3f5-282c27f047f3;
+  Query: {"id":"7001bd8a-7c3e-4459-a3f5-282c27f047f3"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e4009e6e-e13a-4bf3-9d27-a275a7fc2e9c;
+  Query: {"id":"e4009e6e-e13a-4bf3-9d27-a275a7fc2e9c"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/e846e262-25a3-48a5-adb9-4cc496ed31c8;
+  Query: {"id":"e846e262-25a3-48a5-adb9-4cc496ed31c8"};
+  Body: {"id":"e846e262-25a3-48a5-adb9-4cc496ed31c8","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e846e262-25a3-48a5-adb9-4cc496ed31c8;
+  Query: {"id":"e846e262-25a3-48a5-adb9-4cc496ed31c8"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e846e262-25a3-48a5-adb9-4cc496ed31c8;
+  Query: {"id":"e846e262-25a3-48a5-adb9-4cc496ed31c8"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e5e3220d-ce04-43c0-b215-d3cd754b5204;
+  Query: {"id":"e5e3220d-ce04-43c0-b215-d3cd754b5204"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e5e3220d-ce04-43c0-b215-d3cd754b5204;
+  Query: {"id":"e5e3220d-ce04-43c0-b215-d3cd754b5204"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/321c44d8-ddf6-460f-b6f1-31dae2826172;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"321c44d8-ddf6-460f-b6f1-31dae2826172"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/04ac9c8d-f3f0-43ac-b641-2feb5590cf9b;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"04ac9c8d-f3f0-43ac-b641-2feb5590cf9b"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/47bc4690-802a-476f-b26d-95f7671913b4;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"47bc4690-802a-476f-b26d-95f7671913b4"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/63fa27b0-4a6e-4729-8cb7-245878a039a2;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"63fa27b0-4a6e-4729-8cb7-245878a039a2"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/4c5edd1b-37fb-42cd-a061-2c4be817dc6e;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"4c5edd1b-37fb-42cd-a061-2c4be817dc6e"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/adff5cdc-04d8-4591-a19d-4248f072070e;
+  Query: {"id":"adff5cdc-04d8-4591-a19d-4248f072070e"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/321c44d8-ddf6-460f-b6f1-31dae2826172;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"321c44d8-ddf6-460f-b6f1-31dae2826172"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/04ac9c8d-f3f0-43ac-b641-2feb5590cf9b;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"04ac9c8d-f3f0-43ac-b641-2feb5590cf9b"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/47bc4690-802a-476f-b26d-95f7671913b4;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"47bc4690-802a-476f-b26d-95f7671913b4"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/63fa27b0-4a6e-4729-8cb7-245878a039a2;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"63fa27b0-4a6e-4729-8cb7-245878a039a2"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/adff5cdc-04d8-4591-a19d-4248f072070e/tasks/4c5edd1b-37fb-42cd-a061-2c4be817dc6e;
+  Query: {"boardId":"adff5cdc-04d8-4591-a19d-4248f072070e","id":"4c5edd1b-37fb-42cd-a061-2c4be817dc6e"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:54 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/7001bd8a-7c3e-4459-a3f5-282c27f047f3;
+  Query: {"id":"7001bd8a-7c3e-4459-a3f5-282c27f047f3"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query: {};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/1d2246cd-3ec8-4de2-b520-71cc262110cf;
+  Query: {"id":"1d2246cd-3ec8-4de2-b520-71cc262110cf"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/1d2246cd-3ec8-4de2-b520-71cc262110cf;
+  Query: {"id":"1d2246cd-3ec8-4de2-b520-71cc262110cf"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/bbfef86a-850f-44ed-b6de-61c3c66f9561;
+  Query: {"id":"bbfef86a-850f-44ed-b6de-61c3c66f9561"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/9b50d9dc-5745-4caa-ac5f-679075b38cfb;
+  Query: {"id":"9b50d9dc-5745-4caa-ac5f-679075b38cfb"};
+  Body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"9b50d9dc-5745-4caa-ac5f-679075b38cfb"};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/9b50d9dc-5745-4caa-ac5f-679075b38cfb;
+  Query: {"id":"9b50d9dc-5745-4caa-ac5f-679075b38cfb"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/9b50d9dc-5745-4caa-ac5f-679075b38cfb;
+  Query: {"id":"9b50d9dc-5745-4caa-ac5f-679075b38cfb"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/92abe741-35fd-4ceb-b547-47b6e9f17d2e;
+  Query: {"id":"92abe741-35fd-4ceb-b547-47b6e9f17d2e"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7"};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"ffcba47e-9361-447a-b707-c370b48e8d6f","boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7"};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"ffcba47e-9361-447a-b707-c370b48e8d6f","boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7"};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/ffcba47e-9361-447a-b707-c370b48e8d6f;
+  Query: {"id":"ffcba47e-9361-447a-b707-c370b48e8d6f"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks/7e5e2135-9cae-4c34-b452-020bb5343a92;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7","id":"7e5e2135-9cae-4c34-b452-020bb5343a92"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks/96d67104-9e9d-466e-bd00-84c7a2b0770b;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7","id":"96d67104-9e9d-466e-bd00-84c7a2b0770b"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks/7e5e2135-9cae-4c34-b452-020bb5343a92;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7","id":"7e5e2135-9cae-4c34-b452-020bb5343a92"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7/tasks/96d67104-9e9d-466e-bd00-84c7a2b0770b;
+  Query: {"boardId":"fd171d76-483c-4179-9702-a19b8bc87bc7","id":"96d67104-9e9d-466e-bd00-84c7a2b0770b"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/fd171d76-483c-4179-9702-a19b8bc87bc7;
+  Query: {"id":"fd171d76-483c-4179-9702-a19b8bc87bc7"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/0fdb7027-a4f9-42f9-bda4-21f73acd2218;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"0fdb7027-a4f9-42f9-bda4-21f73acd2218"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/5e018b57-10ce-4e46-b004-d7ae3b2d88ae;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"5e018b57-10ce-4e46-b004-d7ae3b2d88ae"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/8298e100-41ab-4e51-af4a-15e9fbe4e48e;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"8298e100-41ab-4e51-af4a-15e9fbe4e48e"};
+  Body: {"id":"8298e100-41ab-4e51-af4a-15e9fbe4e48e","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","columnId":null};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/8298e100-41ab-4e51-af4a-15e9fbe4e48e;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"8298e100-41ab-4e51-af4a-15e9fbe4e48e"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/0fdb7027-a4f9-42f9-bda4-21f73acd2218;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"0fdb7027-a4f9-42f9-bda4-21f73acd2218"};
+  Body: {};
+  Response status 200;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/0fdb7027-a4f9-42f9-bda4-21f73acd2218;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"0fdb7027-a4f9-42f9-bda4-21f73acd2218"};
+  Body: {};
+  Response status 204;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5/tasks/0fdb7027-a4f9-42f9-bda4-21f73acd2218;
+  Query: {"boardId":"0661c277-6c30-42c7-bdb2-955686efa2c5","id":"0fdb7027-a4f9-42f9-bda4-21f73acd2218"};
+  Body: {};
+  Response status 404;
+  
+  [Sun Jun 06 2021 19:43:55 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/0661c277-6c30-42c7-bdb2-955686efa2c5;
+  Query: {"id":"0661c277-6c30-42c7-bdb2-955686efa2c5"};
+  Body: {};
+  Response status 204;
+  

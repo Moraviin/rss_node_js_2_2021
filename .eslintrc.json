@@ -59,6 +59,7 @@
         "usePrettierrc": true
       }
     ],
+    "no-process-exit": "off",
     "import/extensions": "off",
     "linebreak-style": "off",
     "node/no-unsupported-features/es-syntax": "off",

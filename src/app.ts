@@ -5,11 +5,13 @@ import YAML from 'yamljs';
 import userRouter from './resources/users/user.router';
 import boardRouter from './resources/boards/board.router';
 import taskRouter from './resources/tasks/task.router';
+import { logMethod, logError, errorHandler } from './logger-service';
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
+app.use(logMethod);
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
@@ -24,5 +26,16 @@ app.use('/', (req, res, next) => {
 app.use('/users', userRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 app.use('/boards', boardRouter);
+
+app.use(errorHandler);
+
+process.on('uncaughtException', err => {
+  logError('error')(err);
+  process.exit(1);
+});
+process.on('unhandledRejection', () => {
+  logError('promise');
+  process.exit(1);
+});
 
 export default app;
