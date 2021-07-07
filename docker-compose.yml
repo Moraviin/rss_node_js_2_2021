@@ -17,7 +17,6 @@ services:
     environment:
       - POSTGRES_HOST=${DOCKER_POSTGRES_HOST}
       - POSTGRES_PORT=${DOCKER_POSTGRES_PORT}
-    
   postgres:
     container_name: postgres
     build: ./database/

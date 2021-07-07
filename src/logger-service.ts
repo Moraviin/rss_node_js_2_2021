@@ -36,6 +36,7 @@ export const logError = (type: 'promise' | 'error') => (err?: Error, cb?: () => 
   ${err?.stack ? `${err.stack}` : ''}`,
     cb,
   );
+
 };
 
 export const errorHandler = (
