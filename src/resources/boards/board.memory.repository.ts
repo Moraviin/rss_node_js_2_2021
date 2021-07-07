@@ -1,43 +1,42 @@
-import Board, { IBoardModel, IBoardParams } from './board.model';
+import dbConnection from '../../db';
+import { BoardEntity } from '../entities/boards';
+import { IBoardModel, IBoardParams } from './board.model';
 
-const allBoards: IBoardModel[] = [];
+const boardRepository = dbConnection.then(connection => connection.getRepository(BoardEntity));
 
-const getAll = async (): Promise<IBoardModel[]> => allBoards;
-const getById = async (id?: string): Promise<IBoardModel | void> =>
-  allBoards.find(board => board.id === id);
+const getAll = async (): Promise<IBoardModel[]> => {
+  const boardRepo = await boardRepository;
+  return boardRepo.find();
+};
+const getById = async (id: string): Promise<IBoardModel | void> => {
+  const boardRepo = await boardRepository;
+
+  return boardRepo.findOne({ where: { id } });
+};
 
 const createBoard = async ({ title, columns }: IBoardParams): Promise<IBoardModel> => {
-  const board = new Board({ title, columns });
-  allBoards.push(board);
-  return board;
+  const boardRepo = await boardRepository;
+
+  const insertResponse = await boardRepo.insert({ title, columns });
+  const boardId = insertResponse.identifiers[0];
+  return boardRepo.findOneOrFail({ where: boardId });
 };
 
 const deleteById = async (id: string): Promise<void> => {
-  const boardPosition = allBoards.findIndex(board => board.id === id);
-
-  if (boardPosition === -1) {
-    throw new Error('User not found');
-  } else {
-    allBoards.splice(boardPosition, 1);
-  }
+  const boardRepo = await boardRepository;
+  await boardRepo.delete({ id });
 };
 
 const updateById = async ({ id, title, columns }: IBoardModel): Promise<IBoardModel> => {
-  const boardPosition = allBoards.findIndex(board => board.id === id);
+  const boardRepo = await boardRepository;
 
-  if (boardPosition === -1) {
-    throw new Error('Board not found');
-  } else {
-    const oldBoard = allBoards[boardPosition];
-    const newBoard = { ...oldBoard, title, columns, id };
+  await boardRepo.findOneOrFail({ id });
+  const userUpdate = await boardRepo.save({ id, title, columns });
 
-    allBoards.splice(boardPosition, 1, newBoard);
-    return newBoard;
-  }
+  return userUpdate;
 };
 
 export default {
-  allBoards,
   getAll,
   getById,
   createBoard,

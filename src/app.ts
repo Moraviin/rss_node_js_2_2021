@@ -30,12 +30,14 @@ app.use('/boards', boardRouter);
 app.use(errorHandler);
 
 process.on('uncaughtException', err => {
-  logError('error')(err);
-  process.exit(1);
+
+  logError('error')(err, () => process.exit(1));
 });
-process.on('unhandledRejection', () => {
-  logError('promise');
-  process.exit(1);
+
+process.on('unhandledRejection', async (_promiseInfo, promise) => {
+  const err = await promise.catch(error => error);
+  logError('promise')(err, () => process.exit(1));
+
 });
 
 export default app;

@@ -1,49 +1,41 @@
-import User, { IUserModel, IUserParams } from './user.model';
+import dbConnection from '../../db';
+import { UserEntity } from '../entities/users';
+import { IUserModel, IUserParams } from './user.model';
 
-const allUsers: IUserModel[] = [];
+const userRepository = dbConnection.then(connection => connection.getRepository(UserEntity));
 
-const getAll = async (): Promise<IUserModel[]> => allUsers;
-const getById = async (id: string): Promise<IUserModel | void> =>
-  allUsers.find(user => user.id === id);
+const getAll = async (): Promise<IUserModel[]> => {
+  const userRepo = await userRepository;
+  return userRepo.find();
+};
+
+const getById = async (id: string): Promise<IUserModel | void> => {
+  const userRepo = await userRepository;
+  return userRepo.findOne({ where: { id } });
+};
 
 const createUser = async ({ name, login, password }: IUserParams): Promise<IUserModel> => {
-  const user = new User({ name, login, password });
-  allUsers.push(user);
-  return user;
+  const userRepo = await userRepository;
+  const insertResponse = await userRepo.insert({ name, login, password });
+  const userId = insertResponse.identifiers[0];
+  return userRepo.findOneOrFail({ where: userId });
 };
 
 const deleteById = async (id: string): Promise<void> => {
-  const userPosition = allUsers.findIndex(user => user.id === id);
-
-  if (userPosition === -1) {
-    throw new Error('User not found');
-  } else {
-    allUsers.splice(userPosition, 1);
-  }
+  const userRepo = await userRepository;
+  await userRepo.delete({ id });
 };
 
 const updateById = async ({ id, name, login, password }: IUserModel): Promise<IUserModel> => {
-  const userPosition = allUsers.findIndex(user => user.id === id);
+  const userRepo = await userRepository;
 
-  if (userPosition === -1) {
-    throw new Error('User not found');
-  } else {
-    const oldUser = allUsers[userPosition];
-    const newUser = {
-      ...oldUser,
-      name,
-      login,
-      password,
-      id,
-    };
+  await userRepo.findOneOrFail({ id });
+  const userUpdate = await userRepo.save({ id, name, login, password });
 
-    allUsers.splice(userPosition, 1, newUser);
-    return newUser;
-  }
+  return userUpdate;
 };
 
 export default {
-  allUsers,
   getAll,
   getById,
   createUser,

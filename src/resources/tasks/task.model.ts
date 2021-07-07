@@ -5,7 +5,7 @@ export interface ITaskParams {
   order: number;
   description: string;
   boardId: string;
-  userId: string | null;
+  userId: string | undefined;
   columnId: string;
 }
 
@@ -33,7 +33,7 @@ class Task {
     order = 0,
     description = 'description',
     boardId,
-    userId = null,
+    userId,
     columnId,
   }: ITaskParams) {
     this.id = uuid();
