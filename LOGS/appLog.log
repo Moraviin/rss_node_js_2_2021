@@ -1,0 +1,2041 @@
+
+  [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/12345/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/123;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/12345;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/f49fd6c4-7028-4956-9d6f-f4a9288a68ea;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/f49fd6c4-7028-4956-9d6f-f4a9288a68ea;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/a97f8974-a62d-4ea8-8778-e405e1515f36;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/43a46ed0-7ada-4d37-a42e-1a8b9e75951e;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/0d6ec7b3-4ddf-4d51-8f52-e1c6f39ad735;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/f50454ad-41bd-4c2d-93b7-a4991e399bd7;
+  Query params: {};
+  Body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"f50454ad-41bd-4c2d-93b7-a4991e399bd7"};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/f50454ad-41bd-4c2d-93b7-a4991e399bd7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/ddf4182a-71f6-4bb6-88c9-977597ebf721;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/f50454ad-41bd-4c2d-93b7-a4991e399bd7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/1dc16b8a-b1f0-4399-9dfc-d6586e7de198;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/4b848a47-bb5f-498d-bf1b-de617c9bb432;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/8e7751b4-1c44-4cdb-8782-9054b7e09735;
+  Query params: {};
+  Body: {"id":"8e7751b4-1c44-4cdb-8782-9054b7e09735","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"e35b97e2-4cfb-4871-a2cc-1a1e873e0c36","columnId":null};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/8e7751b4-1c44-4cdb-8782-9054b7e09735;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/0d6ec7b3-4ddf-4d51-8f52-e1c6f39ad735;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/0d6ec7b3-4ddf-4d51-8f52-e1c6f39ad735;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/239467c6-dce8-4fe6-8805-d0b3ce01f500;
+  Query params: {};
+  Body: {"id":"239467c6-dce8-4fe6-8805-d0b3ce01f500","title":"Autotest updated board","columns":[{"order":1,"title":"Backlog"},{"order":2,"title":"Sprint"}]};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36/tasks/0d6ec7b3-4ddf-4d51-8f52-e1c6f39ad735;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/239467c6-dce8-4fe6-8805-d0b3ce01f500;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/e35b97e2-4cfb-4871-a2cc-1a1e873e0c36;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"81282da8-722b-4809-be3c-4d8ad40ebb62","boardId":"5068dcfb-1c7b-4708-a8fd-cc37fc21aed0"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"81282da8-722b-4809-be3c-4d8ad40ebb62","boardId":"5068dcfb-1c7b-4708-a8fd-cc37fc21aed0"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/239467c6-dce8-4fe6-8805-d0b3ce01f500;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/81282da8-722b-4809-be3c-4d8ad40ebb62;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks/f264fd56-85ca-455f-a2b7-ba1f75e0976e;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks/7973dba5-ae7e-4a21-83a8-129d287c7200;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/b13f91c0-593a-4418-b9df-c641b1a93dd9;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks/f264fd56-85ca-455f-a2b7-ba1f75e0976e;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0/tasks/7973dba5-ae7e-4a21-83a8-129d287c7200;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/b13f91c0-593a-4418-b9df-c641b1a93dd9;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/5068dcfb-1c7b-4708-a8fd-cc37fc21aed0;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"0eeb217c-febd-4720-9766-0d2a776f6d0a","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"0eeb217c-febd-4720-9766-0d2a776f6d0a","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks;
+  Query params: {};
+  Body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"0eeb217c-febd-4720-9766-0d2a776f6d0a","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks;
+  Query params: {};
+  Body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"0eeb217c-febd-4720-9766-0d2a776f6d0a","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks;
+  Query params: {};
+  Body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"0eeb217c-febd-4720-9766-0d2a776f6d0a","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/82d8218d-6e25-4765-a758-4c4160c30185;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/b1e4cb9d-53c2-4f90-9078-9ecbad508de3;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/32f9c206-5b7f-4176-8171-9a43e22bc1af;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/f0f8beee-6a0a-458f-93e7-acf63d7e4c48;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/3aa259e0-5fb3-40eb-a20d-782729d3f2e0;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/32f9c206-5b7f-4176-8171-9a43e22bc1af;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/f0f8beee-6a0a-458f-93e7-acf63d7e4c48;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/3aa259e0-5fb3-40eb-a20d-782729d3f2e0;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/82d8218d-6e25-4765-a758-4c4160c30185;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/0eeb217c-febd-4720-9766-0d2a776f6d0a/tasks/b1e4cb9d-53c2-4f90-9078-9ecbad508de3;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/a97f8974-a62d-4ea8-8778-e405e1515f36;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/123;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/12345/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/12345;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/c92629b9-6d95-4f6b-a15b-b62c63b7fc15;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/c92629b9-6d95-4f6b-a15b-b62c63b7fc15;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/96ab0850-db7c-43ab-a642-ace433439766;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/27cf18a9-506f-4054-a7ee-88927e1cf937;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/2bee2b9a-d322-493e-9ca7-5bf614b46f77;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/1daf748e-a47d-4ced-9705-35ded7942a19;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/065512b3-cbcd-46d1-8024-21ed6d4651a7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/6dcc97f3-d4bb-4d01-ac7a-4d600739029c;
+  Query params: {};
+  Body: {"id":"6dcc97f3-d4bb-4d01-ac7a-4d600739029c","title":"Autotest updated board","columns":[{"order":1,"title":"Backlog"},{"order":2,"title":"Sprint"}]};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/6ac8fd37-20b0-4393-9e86-e1f861d8debe;
+  Query params: {};
+  Body: {"id":"6ac8fd37-20b0-4393-9e86-e1f861d8debe","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"142aa63c-04f4-4c8a-8a76-2c7b28e155c8","columnId":null};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/6dcc97f3-d4bb-4d01-ac7a-4d600739029c;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/6ac8fd37-20b0-4393-9e86-e1f861d8debe;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/6dcc97f3-d4bb-4d01-ac7a-4d600739029c;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/27cf18a9-506f-4054-a7ee-88927e1cf937;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/27cf18a9-506f-4054-a7ee-88927e1cf937;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/06fdc781-e520-4cce-b035-a9a25cc2c90d;
+  Query params: {};
+  Body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"06fdc781-e520-4cce-b035-a9a25cc2c90d"};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8/tasks/27cf18a9-506f-4054-a7ee-88927e1cf937;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/2dcf3e0c-d506-412a-9267-813c353db964;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/06fdc781-e520-4cce-b035-a9a25cc2c90d;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/142aa63c-04f4-4c8a-8a76-2c7b28e155c8;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/2dcf3e0c-d506-412a-9267-813c353db964;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/06fdc781-e520-4cce-b035-a9a25cc2c90d;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"05e6a119-3e7b-46fa-99a3-aa0bda1fb36d","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks;
+  Query params: {};
+  Body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"05e6a119-3e7b-46fa-99a3-aa0bda1fb36d","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"05e6a119-3e7b-46fa-99a3-aa0bda1fb36d","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/810acc57-9c4f-4b1b-a933-33c7dc80eb1e;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks;
+  Query params: {};
+  Body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"05e6a119-3e7b-46fa-99a3-aa0bda1fb36d","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks;
+  Query params: {};
+  Body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"05e6a119-3e7b-46fa-99a3-aa0bda1fb36d","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"c65ae420-dbe2-4016-b920-6802feade48a","boardId":"542a12e4-4cfe-4c86-b2ad-efa96955e21d"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"c65ae420-dbe2-4016-b920-6802feade48a","boardId":"542a12e4-4cfe-4c86-b2ad-efa96955e21d"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/cef39339-9b2c-48dd-a94e-b9d32d770766;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/98c32b40-5267-4553-96bf-47dce465cd86;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/70f9a60d-194a-411e-9a7b-4ab0edc2d546;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/89c475a3-ebb9-4154-b741-3d9013947947;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/cce5974a-e533-41aa-ad24-943660fd1860;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/c65ae420-dbe2-4016-b920-6802feade48a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks/84ad91d0-2857-44af-9195-067a183405ba;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/cef39339-9b2c-48dd-a94e-b9d32d770766;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/98c32b40-5267-4553-96bf-47dce465cd86;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/70f9a60d-194a-411e-9a7b-4ab0edc2d546;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/89c475a3-ebb9-4154-b741-3d9013947947;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/05e6a119-3e7b-46fa-99a3-aa0bda1fb36d/tasks/cce5974a-e533-41aa-ad24-943660fd1860;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks/9c327a77-8dc9-4cd6-98ff-93ed5f7f9d02;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks/84ad91d0-2857-44af-9195-067a183405ba;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d/tasks/9c327a77-8dc9-4cd6-98ff-93ed5f7f9d02;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/96ab0850-db7c-43ab-a642-ace433439766;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/542a12e4-4cfe-4c86-b2ad-efa96955e21d;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/123;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/12345/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/12345;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/12345;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/13e15bd9-d9c5-4a55-968b-cc5ac4d73653;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/13e15bd9-d9c5-4a55-968b-cc5ac4d73653;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/229bf600-2562-4d9e-a293-e0349432e8c6;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e457aef8-005f-49df-aea6-4bee1e421769;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/a1f469f6-fc34-4155-8e18-3e33c24da924;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/ed4b195b-8ccc-4ea2-b1f4-31f4f9a3dad1;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/ea0afb06-07c2-429c-99d6-6cb469366d12;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /users/5003fb62-8e6a-424d-9639-cc4e256e9d53;
+  Query params: {};
+  Body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5003fb62-8e6a-424d-9639-cc4e256e9d53"};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/159128f0-fa13-405c-9a89-f5a2628c0a5b;
+  Query params: {};
+  Body: {"id":"159128f0-fa13-405c-9a89-f5a2628c0a5b","title":"Autotest updated board","columns":[{"order":1,"title":"Backlog"},{"order":2,"title":"Sprint"}]};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [PUT] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e4ab3b87-b3aa-4e3e-b836-9f0b0eccdb87;
+  Query params: {};
+  Body: {"id":"e4ab3b87-b3aa-4e3e-b836-9f0b0eccdb87","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"831c6055-a7fa-4642-bb38-4ce8dd8e3b6a","columnId":null};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /users/5003fb62-8e6a-424d-9639-cc4e256e9d53;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/159128f0-fa13-405c-9a89-f5a2628c0a5b;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e4ab3b87-b3aa-4e3e-b836-9f0b0eccdb87;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/5003fb62-8e6a-424d-9639-cc4e256e9d53;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e457aef8-005f-49df-aea6-4bee1e421769;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/159128f0-fa13-405c-9a89-f5a2628c0a5b;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e457aef8-005f-49df-aea6-4bee1e421769;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a/tasks/e457aef8-005f-49df-aea6-4bee1e421769;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/44bf68fd-f4e1-4a5f-9d7c-46f607ace7cb;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/5b9876a2-fc40-416b-8302-35b14e0f80d8;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/831c6055-a7fa-4642-bb38-4ce8dd8e3b6a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/5b9876a2-fc40-416b-8302-35b14e0f80d8;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"f0533e4d-859b-44fa-9ccb-3d316de64126","boardId":"301579bb-08a3-4ed3-9e0a-f3df2c80a880"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d58edc90-8014-4518-b40c-1e1858178319","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d58edc90-8014-4518-b40c-1e1858178319","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"f0533e4d-859b-44fa-9ccb-3d316de64126","boardId":"301579bb-08a3-4ed3-9e0a-f3df2c80a880"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks;
+  Query params: {};
+  Body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d58edc90-8014-4518-b40c-1e1858178319","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks;
+  Query params: {};
+  Body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d58edc90-8014-4518-b40c-1e1858178319","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [POST] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks;
+  Query params: {};
+  Body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d58edc90-8014-4518-b40c-1e1858178319","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /users/f0533e4d-859b-44fa-9ccb-3d316de64126;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks/4334b21d-8773-4204-a414-449ae3fccc63;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/0fca1f8d-410c-46bf-9447-5c799f46e66f;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/867a647c-9640-44e7-921c-5fa789e44d34;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/558c75de-26c9-4dd8-afe1-6223f6f208d6;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/dcac7f18-c56c-4b90-ae10-465e472735fc;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/95b64c36-30d4-4517-a12f-ca8f0d947c8f;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks/ab2c309f-4e7b-40ea-a8a2-7c706cf3e9e2;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/d58edc90-8014-4518-b40c-1e1858178319;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks/ab2c309f-4e7b-40ea-a8a2-7c706cf3e9e2;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880/tasks/4334b21d-8773-4204-a414-449ae3fccc63;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/0fca1f8d-410c-46bf-9447-5c799f46e66f;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/867a647c-9640-44e7-921c-5fa789e44d34;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/558c75de-26c9-4dd8-afe1-6223f6f208d6;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/dcac7f18-c56c-4b90-ae10-465e472735fc;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [GET] /boards/d58edc90-8014-4518-b40c-1e1858178319/tasks/95b64c36-30d4-4517-a12f-ca8f0d947c8f;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/301579bb-08a3-4ed3-9e0a-f3df2c80a880;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+  [DELETE] /boards/229bf600-2562-4d9e-a293-e0349432e8c6;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/12345/tasks;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /users/123;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /login;
+  Query params: {};
+  Body: {"login":"admin","password":"admin"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /users/12345;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/12345/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/12345/tasks/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /users;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /boards/12345;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/12345;
+  Query params: {};
+  Body: {};
+  Response status 401;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /users/82cc3496-e8f3-4e79-aa0b-774c28087c21;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/82cc3496-e8f3-4e79-aa0b-774c28087c21;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/37f98120-d234-437e-85d5-3337947f8489;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/46c52f9c-be5f-4e2e-9b4b-c59b39ab371a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/47464aec-2071-44e7-8f54-b7f8cca3bdfc;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/38a72e65-18f8-4ab0-8238-da158bf5a306;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/0d151b36-8b35-4ebd-a820-b0a1a624f52c;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks;
+  Query params: {};
+  Body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /users/0bf519d9-4553-4524-ba39-129123fa1536;
+  Query params: {};
+  Body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"0bf519d9-4553-4524-ba39-129123fa1536"};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /boards/21134691-ee56-4de0-bba4-bc905af97f11;
+  Query params: {};
+  Body: {"id":"21134691-ee56-4de0-bba4-bc905af97f11","title":"Autotest updated board","columns":[{"order":1,"title":"Backlog"},{"order":2,"title":"Sprint"}]};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [PUT] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/ccceaec1-524a-4d1e-80c5-29fbfd2be4c7;
+  Query params: {};
+  Body: {"id":"ccceaec1-524a-4d1e-80c5-29fbfd2be4c7","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"125ef8de-5836-4e57-b5cc-cf8d50f3a2f7","columnId":null};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /users/0bf519d9-4553-4524-ba39-129123fa1536;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/21134691-ee56-4de0-bba4-bc905af97f11;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/ccceaec1-524a-4d1e-80c5-29fbfd2be4c7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/0bf519d9-4553-4524-ba39-129123fa1536;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/21134691-ee56-4de0-bba4-bc905af97f11;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/46c52f9c-be5f-4e2e-9b4b-c59b39ab371a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/46c52f9c-be5f-4e2e-9b4b-c59b39ab371a;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/9282d2b0-5ba8-4027-8e51-81d4b24620d3;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7/tasks/46c52f9c-be5f-4e2e-9b4b-c59b39ab371a;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/7888282b-917a-4aab-bd41-819f38f78199;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/7888282b-917a-4aab-bd41-819f38f78199;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /users;
+  Query params: {};
+  Body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/125ef8de-5836-4e57-b5cc-cf8d50f3a2f7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards;
+  Query params: {};
+  Body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"48dbbaf4-3cd1-4664-a42c-ad17b8713f15","boardId":"d57ea792-ec6a-42e4-848c-ea6befcd2c41"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"48dbbaf4-3cd1-4664-a42c-ad17b8713f15","boardId":"d57ea792-ec6a-42e4-848c-ea6befcd2c41"};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks;
+  Query params: {};
+  Body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"a4e80cbb-348e-47f3-b7ec-1841bfca9b25","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /users/48dbbaf4-3cd1-4664-a42c-ad17b8713f15;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks/482153cc-6c28-4dd7-ac1f-44f3f9b7b123;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks/556a05c4-af45-4311-a9e4-07aa8137b182;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks/482153cc-6c28-4dd7-ac1f-44f3f9b7b123;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks;
+  Query params: {};
+  Body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"a4e80cbb-348e-47f3-b7ec-1841bfca9b25","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks;
+  Query params: {};
+  Body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"a4e80cbb-348e-47f3-b7ec-1841bfca9b25","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41/tasks/556a05c4-af45-4311-a9e4-07aa8137b182;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks;
+  Query params: {};
+  Body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"a4e80cbb-348e-47f3-b7ec-1841bfca9b25","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [POST] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks;
+  Query params: {};
+  Body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"a4e80cbb-348e-47f3-b7ec-1841bfca9b25","userId":null,"columnId":null};
+  Response status 201;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/d57ea792-ec6a-42e4-848c-ea6befcd2c41;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/b6c9010d-69c8-405c-8be6-155949c92b32;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/8bfc7e9b-71d9-412b-b620-36f80346f2df;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/9af77f49-955f-487d-8b43-8f77a2d82088;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/2f6be6ba-2461-4279-a026-ab0092aeace4;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/b8a790ea-8de9-4693-851d-49ec0d3b83e7;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/8bfc7e9b-71d9-412b-b620-36f80346f2df;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/b6c9010d-69c8-405c-8be6-155949c92b32;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/9af77f49-955f-487d-8b43-8f77a2d82088;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/b8a790ea-8de9-4693-851d-49ec0d3b83e7;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [GET] /boards/a4e80cbb-348e-47f3-b7ec-1841bfca9b25/tasks/2f6be6ba-2461-4279-a026-ab0092aeace4;
+  Query params: {};
+  Body: {};
+  Response status 404;
+  
+  [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+  [DELETE] /boards/37f98120-d234-437e-85d5-3337947f8489;
+  Query params: {};
+  Body: {};
+  Response status 200;
+  

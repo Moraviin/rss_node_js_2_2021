@@ -20,10 +20,21 @@ export const config = {
   password: POSTGRES_PASSWORD,
   database: POSTGRES_DB,
   entities: [UserEntity, TaskEntity, BoardEntity],
+} as ConnectionOptions;
+
+const migrationConfig = {
+  type: 'postgres',
+  synchronize: false,
+  host: POSTGRES_HOST,
+  port: POSTGRES_PORT,
+  username: POSTGRES_USER,
+  password: POSTGRES_PASSWORD,
+  database: POSTGRES_DB,
+  entities: [UserEntity, TaskEntity, BoardEntity],
   migrations: ['migrations/**.ts'],
   cli: {
     migrationsDir: 'migrations',
   },
-} as ConnectionOptions;
+};
 
-export default config;
+export default migrationConfig;

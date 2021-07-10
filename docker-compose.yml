@@ -7,7 +7,7 @@ services:
     volumes: 
       - ./src:/usr/src/src
       - ./LOGS:/usr/src/LOGS
-    command: ["./wait-for.sh", "${POSTGRES_HOST}:${POSTGRES_PORT}", "--", "npm", "run", "start:migration"]
+    command: ["./wait-for.sh", "${POSTGRES_HOST}:${POSTGRES_PORT}", "--", "npm", "start"]
     ports: 
       - ${PORT}:${PORT}
     networks: 
@@ -34,5 +34,3 @@ services:
 networks: 
   user_defined_bridge:
     driver: bridge
-            
-            

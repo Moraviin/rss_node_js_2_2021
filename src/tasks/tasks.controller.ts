@@ -33,7 +33,7 @@ export class TasksController {
   }
 
   @Post()
-  async createUser(@Param('boardId') boardId, @Body() body, @Res() res) {
+  async createTask(@Param('boardId') boardId, @Body() body, @Res() res) {
     const { title, order, description, userId, columnId } = body;
 
     const user = await this.tasksService.createTask({
@@ -49,14 +49,14 @@ export class TasksController {
   }
 
   @Delete(':id')
-  async deleteUser(@Param('id') id, @Res() res) {
+  async deleteTask(@Param('id') id, @Res() res) {
     await this.tasksService.deleteById(id);
 
     res.send('The task has been deleted!');
   }
 
   @Put(':id')
-  async updateUser(@Param() params, @Body() body, @Res() res) {
+  async updateTask(@Param() params, @Body() body, @Res() res) {
     const { id, boardId } = params;
     const { title, order, description, userId, columnId } = body;
 

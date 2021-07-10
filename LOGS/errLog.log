@@ -233,3 +233,843 @@
   info: "connect ECONNREFUSED 172.23.0.2:5432"
   Error: connect ECONNREFUSED 172.23.0.2:5432
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+    [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:12 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:16:13 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:46 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:17:47 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 09:18:23 GMT+0300 (Moscow Standard Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (C:\Projects\baseNest\rss_node_js_2_2021\src\authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\guards\guards-consumer.js:15:34)
+    at canActivateFn (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:134:59)
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-execution-context.js:42:37
+    at C:\Projects\baseNest\rss_node_js_2_2021\node_modules\@nestjs\core\router\router-proxy.js:9:23
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\baseNest\rss_node_js_2_2021\node_modules\express\lib\router\layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    [Sat Jul 10 2021 06:22:14 GMT+0000 (Coordinated Universal Time)]
+    [Uncaught exception] UnauthorizedException
+    info: "Unauthorized"
+    UnauthorizedException: Unauthorized
+    at Object.validateRequest (/usr/src/src/authtenticate-service.ts:28:11)
+    at AuthtenticateGuard.canActivate (/usr/src/src/authtenticate.guard.ts:12:12)
+    at GuardsConsumer.tryActivate (/usr/src/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at canActivateFn (/usr/src/node_modules/@nestjs/core/router/router-execution-context.js:134:59)
+    at /usr/src/node_modules/@nestjs/core/router/router-execution-context.js:42:37
+    at /usr/src/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node_modules/express/lib/router/layer.js:95:5)

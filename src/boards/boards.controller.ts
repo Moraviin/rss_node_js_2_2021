@@ -32,7 +32,7 @@ export class BoardsController {
   }
 
   @Post()
-  async createUser(@Body() body, @Res() res) {
+  async createBoard(@Body() body, @Res() res) {
     const { title, columns } = body;
 
     const user = await this.boardsService.createBoard({ title, columns });
@@ -44,8 +44,7 @@ export class BoardsController {
   async deleteBoard(@Param('id') id, @Res() res) {
     await this.boardsService.deleteById(id);
 
-    console.log('deleting service finished');
-    await res.send('The user has been deleted!');
+    await res.send('The board has been deleted!');
   }
 
   @Put(':id')
