@@ -9,23 +9,6 @@ export const hashPassword = (password: string): string => {
   return bcrypt.hashSync(password, salt);
 };
 
-// const authMiddleware = async (
-//   req: express.Request,
-//   res: express.Response,
-//   next: express.NextFunction,
-// ) => {
-//   const authToken = req.header('authorization')?.split(' ')[1];
-
-//   try {
-//     if (!authToken) throw new Error();
-
-//     jwt.verify(authToken, JWT_SECRET_KEY);
-//     next();
-//   } catch {
-//     res.status(401).send('Unauthorized');
-//   }
-// };
-
 export const validateRequest = (request) => {
   const exceptionRoutes = ['/', '/doc', '/login'];
 
@@ -36,7 +19,6 @@ export const validateRequest = (request) => {
   }
 
   const authToken = request.headers['authorization']?.split(' ')[1];
-  // console.log(request.headers);
 
   try {
     if (!authToken) throw new Error();
