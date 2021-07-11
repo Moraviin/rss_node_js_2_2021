@@ -8,6 +8,8 @@ import {
   Body,
   Param,
 } from '@nestjs/common';
+import { CreateBoardDto } from './dto/create-board.dto';
+import { UpdateBoardDto } from './dto/update-board.dto';
 import { BoardsService } from './boards.service';
 
 @Controller('boards')
@@ -32,7 +34,7 @@ export class BoardsController {
   }
 
   @Post()
-  async createBoard(@Body() body, @Res() res) {
+  async createBoard(@Body() body: CreateBoardDto, @Res() res) {
     const { title, columns } = body;
 
     const user = await this.boardsService.createBoard({ title, columns });
@@ -48,7 +50,7 @@ export class BoardsController {
   }
 
   @Put(':id')
-  async updateBoard(@Param('id') id, @Body() body, @Res() res) {
+  async updateBoard(@Param('id') id, @Body() body: UpdateBoardDto, @Res() res) {
     const { title, columns } = body;
 
     const board = await this.boardsService.updateById({ id, title, columns });

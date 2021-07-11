@@ -10,6 +10,6 @@ export class LoginController {
     const { login, password } = body;
     const jwtToken = await this.loginService.authenticate(login, password);
 
-    res.send({ token: jwtToken });
+    res.status(200).send({ token: jwtToken });
   }
 }

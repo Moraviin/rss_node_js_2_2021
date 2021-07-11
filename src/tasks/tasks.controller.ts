@@ -8,6 +8,8 @@ import {
   Body,
   Param,
 } from '@nestjs/common';
+import { CreateTaskDto } from './dto/create-tasks.dto';
+import { UpdateTaskDto } from './dto/update-tasks.dto';
 import { TasksService } from './tasks.service';
 
 @Controller('boards/:boardId/tasks')
@@ -33,7 +35,11 @@ export class TasksController {
   }
 
   @Post()
-  async createTask(@Param('boardId') boardId, @Body() body, @Res() res) {
+  async createTask(
+    @Param('boardId') boardId,
+    @Body() body: CreateTaskDto,
+    @Res() res,
+  ) {
     const { title, order, description, userId, columnId } = body;
 
     const user = await this.tasksService.createTask({
@@ -56,7 +62,7 @@ export class TasksController {
   }
 
   @Put(':id')
-  async updateTask(@Param() params, @Body() body, @Res() res) {
+  async updateTask(@Param() params, @Body() body: UpdateTaskDto, @Res() res) {
     const { id, boardId } = params;
     const { title, order, description, userId, columnId } = body;
 
