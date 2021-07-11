@@ -16,8 +16,8 @@ export class LoginService {
   async authenticate(login, password) {
     const user = await this.userRepo.findOneOrFail({ login });
 
-    // const isPasswordIncorrect = !bcrypt.compareSync(password, user.password);
-    // if (isPasswordIncorrect) throw new Error();
+    const isPasswordIncorrect = !bcrypt.compareSync(password, user.password);
+    if (isPasswordIncorrect) throw new Error();
 
     const jwtToken = jwt.sign(
       {

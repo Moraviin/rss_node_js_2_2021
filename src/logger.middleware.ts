@@ -34,7 +34,9 @@ export class LoggerService implements NestMiddleware {
     errWriteStream.write(
       `
     [${new Date()}]
-    [Uncaught ${type === 'promise' ? 'promise rejection' : 'exception'}] ${err?.name || ''}
+    [Uncaught ${type === 'promise' ? 'promise rejection' : 'exception'}] ${
+        err?.name || ''
+      }
     info: ${JSON.stringify(err?.message || '')}
     ${err?.stack ? `${err.stack}` : ''}`,
       cb,
